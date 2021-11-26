@@ -93,9 +93,20 @@ img {
     position: relative;
 }
 
-#immagine1 {
-    position: absolute;
-    left: 0;
+.items .immagine1 {
+    display: block;
+}
+
+.items .immagine2 {
+    display: none;
+}
+
+.items:hover .immagine1 {
+    display: none;
+}
+
+.items:hover .immagine2 {
+    display: block;
 }
 
 
